@@ -1,0 +1,10 @@
+.imgProduct{
+    /* Mantenemos la imagen en relacion de aspecto */
+    object-fit: cover;
+    text-align: center;
+    max-width: 100%;
+    height: 150px;
+}
+.card:hover {
+    box-shadow: 0 8px 12px 0 rgba(255, 0, 0, 0.8)
+  }

@@ -1,0 +1,91 @@
+* {
+  font-family: "Delius", cursive;
+  font-style: normal;
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  min-height: 100%;
+  position: relative;
+}
+body{
+  background-color: #f4f4f4;
+  display: grid;
+  min-height: 100vh;
+  grid-template-rows: auto 1fr auto;
+}
+.content{
+  padding: 20px;
+  min-height: fit-content;
+  margin-bottom: 173px;
+}
+/* --------------------------- */
+/*  ACA MODIFICAMOS EL NAVBAR  */
+/* --------------------------- */
+.imgLogo{
+  width: 150px;
+  height: 50px;
+}
+.imgCart{
+  width: 40px;
+  height: 25px;
+}
+
+/* --------------------------- */
+/* ACA MODIFICAMOS EL CARROSEL */
+/* --------------------------- */
+
+/* Modificamos la altura de cada imagen */
+.imgSlider{
+  height: 500px;
+}
+
+/* --------------------------- */
+/* ACA MODIFICAMOS LA VENTAN FLOTANTE DEL CARRITO */
+/* --------------------------- */
+.offcanvas-footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 1rem;
+  background-color: #212529; 
+}
+  
+/* Color de fondo del offcanvas */
+.offcanvas-footer .btn {
+  margin-top: 10px;
+}
+
+.modal-body p {
+  margin: 0;
+  font-size: 1rem;
+}
+
+.modal-footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Ajustar la imagen para que tenga bordes redondeados */
+#product-modal-image {
+  height: 600px;
+  max-height: 300px;
+  object-fit: cover;
+}
+
+/* Espaciado entre elementos */
+.modal-body h5 {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.modal-body p {
+  font-size: 1rem;
+  color: #6c757d;
+}
+
+.importados{
+  margin-top: 50px;
+}
